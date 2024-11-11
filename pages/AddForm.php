@@ -107,28 +107,39 @@
                             <label for="age">Age:</label>
                             <input type="number" id="age" name="age" placeholder="Enter age" required>
                             
-                            <label for="gender">Gender:</label>
-                            <input type="text" id="gender" name="gender" placeholder="Enter gender" required>
-                            
+                            <label for="">Gender:</label>
+                            <select class="form-control" name="gender" id="gender">
+                                <option value=""disabled selected>Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                        </select>
                             <label for="course">Course:</label>
-                            <select name="course" id="course" placeholder="Enter course" required>
-                                <option value="BSIS">BSIS</option>
-                                <option value="BEED">BEED</option>
-                                <option value="BSAIS">BSAIS</option>
+                            <select class="form-control" name="course" id="course">
+                            <option value=""disabled selected>Select Course</option>
+                                <option value="Bachelor Of Science in Information System">Bachelor Of Science in Information System</option>
+                                <option value="Bachelor of Science in Business Administration">Bachelor of Science in Business Administration</option>
+                                <option value="Bachelor of Science in Tourism Management">Bachelor of Science in Tourism Management</option>
+                                <option value="Bachelor of Science in Nursing">Bachelor of Science in Nursing</option>
                             </select>
                             
                             <label for="Campus">Campus:</label>
-                            <select name="campus" id="Campus">
+                            <select class="form-control" name="Campus" id="Campus">
+                            <option value=""disabled selected>Select campus</option>
                                 <option value="Sta.Cruz Campus">Sta.Cruz Campus</option>
                                 <option value="Boac Campus">Boac Campus</option>
                                 <option value="Torrijos Campus">Torrijos Campus</option>
                                 <option value="Gasan Campus">Gasan Campus</option>
-                                <option value="Buenavista Campus">Buenavista Campus</option>
                             </select>
                             
                             <label for="college">College:</label>
-                            <input type="text" id="college" name="college" placeholder="Enter college" required>
-                            
+                            <select class="form-control" name="college" id="college"> required>
+                            <option value=""disabled selected>Select college</option>
+                                <option value="College of Information and Computing Sciences">College of Information and Computing Sciences</option>
+                                <option value="College of Engineering">College of Engineering</option>
+                                <option value="College Business and Accountancy">College Business and Accountancy</option>
+                                <option value="College of Governance">College of Governance</option>
+                            </select>
+
                             <button type="submit" name="submit">Submit</button>
                             <button type="reset">Clear</button>
                         </form>
