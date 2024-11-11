@@ -122,8 +122,8 @@
                                 <option value="Bachelor of Science in Nursing">Bachelor of Science in Nursing</option>
                             </select>
                             
-                            <label for="Campus">Campus:</label>
-                            <select class="form-control" name="Campus" id="Campus">
+                            <label for="campus">Campus:</label>
+                            <select class="form-control" name="campus" id="campus">
                             <option value=""disabled selected>Select campus</option>
                                 <option value="Sta.Cruz Campus">Sta.Cruz Campus</option>
                                 <option value="Boac Campus">Boac Campus</option>

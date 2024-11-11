@@ -136,6 +136,14 @@ if (isset($_GET['delete']) && is_numeric($_GET['delete'])) {
                             </table>
                         </div>
                     </div>
+                    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        // Initialize DataTable
+        $(document).ready(function() {
+            $('#datatablesSimple').DataTable();
+        });
+    </script>
+            <a href="AddForm.php" class="add-entry-link">Add New Form</a>
                 </div>
             </main>
             <?php include('../layout/footer.php'); ?>
@@ -143,14 +151,6 @@ if (isset($_GET['delete']) && is_numeric($_GET['delete'])) {
     </div>
 
     <?php include('../layout/script.php'); ?>
-    <!-- Include DataTable JS -->
-
-    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-    <script>
-        // Initialize DataTable
-        $(document).ready(function() {
-            $('#datatablesSimple').DataTable();
-        });
-    </script>
+    <!-- Include DataTable JS --> 
 </body>
 </html>
